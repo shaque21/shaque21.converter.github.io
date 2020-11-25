@@ -1,0 +1,70 @@
+*{
+	font-family: monospace;
+}
+#container{
+	
+}
+.content{
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),url('Number 7 web.jpg');
+	background-size: cover;
+}
+.form-data{
+	padding: 50px;
+	height: 60%;
+	width: 40%;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	border-radius: 5px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+
+}
+.form-data h1{
+	font-size: 24px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.form-control{
+	color: #fff;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #fff;
+	border-radius: 0px;
+}
+.form-control:focus{
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #fff;
+    box-shadow: none;
+}
+.form-control:active{
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #fff;
+    box-shadow: none;
+}
+
+.form-data input::placeholder{
+	color: #fff;
+}
+#binary{
+	visibility: hidden;
+	font-size: 20px;
+}
+.form-group span{
+	border: none;
+	border-top: 2px solid #fff;
+
+}
+.btn{
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-transform: uppercase
+}
